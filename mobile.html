@@ -103,7 +103,7 @@
       <div class="left-header">
       <span class="grey selected-work">Selected Work</span>
       <ul class="mobile-header-container">
-          <li ><a id="about-tab" class ="inactive" href="index.html">About</a></li>
+          <li ><a id="about-tab" onclick="switchViewRight()" class ="inactive" href="#home">About</a></li>
           <li><a id="selected-work" class ="active" href="#news">Selected work</a></li>
       </ul>
       </div>
@@ -114,12 +114,12 @@
 
         </div>
         <div class="thumbnail-carousel">
-          <img class="thumbnail second" src="auction.png" alt="">
-          <img class="thumbnail third" src="flux.png" alt="">
-          <img class="thumbnail fourth" src="ombre.png" alt="">
-          <img class="thumbnail fifth" src="auction.png" alt="">
+          <img class="thumbnail fifth" src="images/spotify/spotify7.png" alt="">
+          <img class="thumbnail second" src="images/spotify/spotify2.png" alt="">
+          <img class="thumbnail fourth" src="images/spotify/spotify4.png" alt="">
+          <img class="thumbnail fifth" src="images/spotify/spotify5.png" alt="">
+          <img class="thumbnail fifth" src="images/spotify/spotify8.png" alt="">
         </div>
-
         <span class="project-header">Stream Slow</span>
         <div class="desc">
           A UX case study on Spotify’s live activity feature and how it can be used to improve music streaming and discovery.
@@ -138,11 +138,10 @@
           <span class="link-arrow">↗</span>
         </div>
         <div class="thumbnail-carousel">
-          <img class="thumbnail first" src="ombre.png" alt="">
-          <img class="thumbnail second" src="auction.png" alt="">
-          <img class="thumbnail third" src="flux.png" alt="">
-          <img class="thumbnail fourth" src="ombre.png" alt="">
-          <img class="thumbnail fifth" src="auction.png" alt="">
+          <img class="thumbnail first" src="images/youtube/1.jpg" alt="">
+          <img class="thumbnail first" src="images/youtube/2.gif" alt="">
+          <img class="thumbnail first" src="images/youtube/3.gif" alt="">
+          <img class="thumbnail first" src="images/youtube/5.png" alt="">
         </div>
 
         <span class="project-header">Youtube Undo</span>
@@ -163,11 +162,14 @@
           <span class="link-arrow">↗</span>
         </div>
         <div class="thumbnail-carousel">
-          <img class="thumbnail first" src="ombre.png" alt="">
-          <img class="thumbnail second" src="auction.png" alt="">
-          <img class="thumbnail third" src="flux.png" alt="">
-          <img class="thumbnail fourth" src="ombre.png" alt="">
-          <img class="thumbnail fifth" src="auction.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/1.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/2.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/3.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/4.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/5.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/6.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/7.png" alt="">
+          <img class="thumbnail sim" src="images/simdiff/8.png" alt="">
         </div>
         <span class="project-header">Attributive vs. Relational Properties in Similarity and Difference Judgments </span>
         <div class="desc">
@@ -182,7 +184,32 @@
         </div>
       </button>
 
-      <button id="grotesque" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+      <button id="fooddelivery" onclick="window.location.href='https://serious-parent-4b6.notion.site/Farm-to-table-produce-delivery-app-25726875911542b0abee9a1541a5763f'" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="images/daylight/1.png" alt="">
+          <img class="thumbnail second" src="images/daylight/2.png" alt="">
+          <img class="thumbnail third" src="images/daylight/3.png" alt="">
+          <img class="thumbnail fourth" src="images/daylight/4.png" alt="">
+          <img class="thumbnail fifth" src="images/daylight/5.png" alt="">
+          <img class="thumbnail fifth" src="images/daylight/6.png" alt="">
+        </div>
+        <span class="project-header">Produce Delivery</span>
+        <div class="desc">
+          Mobile interface for local and fresh produce delivery service.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <!-- <button id="grotesque" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
         <div class="link-arrow-container">
           <span class="link-arrow">↗</span>
         </div>
@@ -204,22 +231,24 @@
             <li class="tag">2022</li>
           </ul>
         </div>
-      </button>
+      </button> -->
 
-      <button id="auctioncard" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+      <button id="auctioncard" onclick="window.location.href='https://caro.bid/'" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
         <div class="link-arrow-container">
           <span class="link-arrow">↗</span>
         </div>
         <div class="thumbnail-carousel">
-          <img class="thumbnail first" src="ombre.png" alt="">
-          <img class="thumbnail second" src="auction.png" alt="">
-          <img class="thumbnail third" src="flux.png" alt="">
-          <img class="thumbnail fourth" src="ombre.png" alt="">
-          <img class="thumbnail fifth" src="auction.png" alt="">
+          <img class="thumbnail first" src="images/caro/1.png" alt="">
+          <img class="thumbnail first" src="images/caro/2.png" alt="">
+          <img class="thumbnail first" src="images/caro/4.png" alt="">
+          <img class="thumbnail first" src="images/caro/5.png" alt="">
+          <img class="thumbnail first" src="images/caro/3.png" alt="">
+
+
         </div>
         <span class="project-header">Japanese and Dutch-Anglo style Auction Cards</span>
         <div class="desc">
-          Designed Japanese and Dutch-Anglo style auction cards for dynamic pricing system.
+          Mobile interface for Japanese and Dutch-Anglo Auction Cards in conjunction with Caro's dynamic pricing system. Inspired by WarioWare.
         </div>
         <div class="tags-container">
           <ul>
@@ -230,29 +259,6 @@
         </div>
       </button>
 
-      <button id="auctioncard" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
-        <div class="link-arrow-container">
-          <span class="link-arrow">↗</span>
-        </div>
-        <div class="thumbnail-carousel">
-          <img class="thumbnail first" src="ombre.png" alt="">
-          <img class="thumbnail second" src="auction.png" alt="">
-          <img class="thumbnail third" src="flux.png" alt="">
-          <img class="thumbnail fourth" src="ombre.png" alt="">
-          <img class="thumbnail fifth" src="auction.png" alt="">
-        </div>
-        <span class="project-header">Japanese and Dutch-Anglo style Auction Cards</span>
-        <div class="desc">
-          Designed Japanese and Dutch-Anglo style auction cards for dynamic pricing system.
-        </div>
-        <div class="tags-container">
-          <ul>
-            <li class="tag">UX design</li>
-            <li class="tag">Case study</li>
-            <li class="tag">2022</li>
-          </ul>
-        </div>
-      </button>
     </main>
 
   </main>
