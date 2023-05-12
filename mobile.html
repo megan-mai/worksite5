@@ -1,0 +1,261 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Megan Mai</title>
+  <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+  <!-- <script src="script.js"></script> -->
+  <main class="container">
+
+    <main id = "left-column" class="left-column">
+      <section class="header">
+        <div class="desktop-header">
+          Megan Mai <br>
+          — <br>
+          UX Design, etc. <br>
+          San Francisco, California <br>
+          meganmai@proton.com
+        </div>
+          <ul class="mobile-header-container">
+              <li ><a id="about-tab" class ="active" href="#home">About</a></li>
+              <li><a id="selected-work" onclick="switchViewLeft()" class ="inactive" href="#news">Selected work</a></li>
+          </ul>
+      </section>
+      <section class="links">
+        <ul>
+          <li><a href="https://docs.google.com/document/u/1/d/1d--KW6TPXnO0qGEYDXyB18_9n2Rw9wYv0X4WR485b-M/edit?usp=sharing">resume</a><span class="black_arrow">↗</span></li>
+          <li><a href="https://read.cv/meganmai">read.cv</a><span class="black_arrow">↗</span></li>
+          <li><a href="https://www.linkedin.com/in/meganmai99/">linkedin</a><span class="black_arrow">↗</span></li>
+          <li><a href="https://www.are.na/megan-mai">are.na</a><span class="black_arrow">↗</span></li>
+        </ul>
+      </section>
+      <section class="about">
+        <h3>About</h3>
+        SF-based multidisciplinary designer. I believe optimization ≠ innovation.
+        When I’m not designing, I spend my time coding, painting, and
+        teaching piano. Currently at <a href="https://nation.io/">NATION</a>.
+      </section>
+      <section class="education">
+        <h3>Education</h3>
+        <div class="column">
+          <div class="grey">2021</div>B.S. Cognitive Science + Computation, UCLA
+        </div>
+      </section>
+      <section class="experience">
+        <h3>Experience</h3>
+        <div class="column">
+          <div class="grey">
+            2023
+          </div>
+          <div class="exp-links">
+            Product Design, <a href="https://nation.io/">NATION</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="grey">
+            2022
+          </div>
+          <div class="exp-links">
+            Design + Web dev, <a href="#">The Grotesque Archive</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="grey">
+            2021
+          </div>
+          <div class="exp-links">
+            UX Design, craftili
+          </div>
+        </div>
+        <div class="column">
+          <div class="grey">
+            2020
+          </div>
+          <div class="exp-links ">
+            Research Assistant, <a href="https://cvl.psych.ucla.edu/">The Computational Vision and Learning Lab</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="grey">
+            2019
+          </div>
+          <div class="exp-links">
+            Graphic Design Lead, <a href="https://collegeofsanmateo.edu/honorsproject/thelabyrinth.asp">LABYRINTH MAGAZINE</a>
+          </div>
+        </div>
+      </section>
+      <section class="about-site">
+        <h3>About this site</h3>
+        Developed and designed* by me <br>
+        *Based on <a href="https://gemmacope.land/">gemmacope.land</a> and inspired by <a href="https://gossipsweb.net/">gossipsweb.net</a> and <a href="https://rcobiella.net/">rcobiella.net</a>
+      </section>
+      <footer>
+        Last updated: 05.04.2023
+      </footer>
+    </main>
+
+    <main id = "right-column" class="right-column">
+      <div class="left-header">
+      <span class="grey selected-work">Selected Work</span>
+      <ul class="mobile-header-container">
+          <li ><a id="about-tab" class ="inactive" href="index.html">About</a></li>
+          <li><a id="selected-work" class ="active" href="#news">Selected work</a></li>
+      </ul>
+      </div>
+
+      <button id="spotify" onclick="window.location.href='https://serious-parent-4b6.notion.site/Stream-Social-b1e77485d4c84675ab5400b085429916'" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+
+        <span class="project-header">Stream Slow</span>
+        <div class="desc">
+          A UX case study on Spotify’s live activity feature and how it can be used to improve music streaming and discovery.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <button id="youtube" onclick="window.location.href='https://serious-parent-4b6.notion.site/Undo-for-Video-Scrubbing-9813c3922edc4645b2b72efc02b568af'" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="ombre.png" alt="">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+
+        <span class="project-header">Youtube Undo</span>
+        <div class="desc">
+          An interaction design case study on time stamps and video scrubbing in Youtube videos.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <button id="simdiff" onclick="window.location.href='https://docs.google.com/document/d/1AU7iv_1onhmGSv963NVMDQHXUmHmlUDhR9rRPa5doss/edit'" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="ombre.png" alt="">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+        <span class="project-header">Attributive vs. Relational Properties in Similarity and Difference Judgments </span>
+        <div class="desc">
+          A study I worked on about analogical reasoning.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <button id="grotesque" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="ombre.png" alt="">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+        <span class="project-header">The Grotesque Archive</span>
+        <div class="desc">
+          Redesigned and developed the online store for designer boutique The Grotesque
+          Archive.        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <button id="auctioncard" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="ombre.png" alt="">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+        <span class="project-header">Japanese and Dutch-Anglo style Auction Cards</span>
+        <div class="desc">
+          Designed Japanese and Dutch-Anglo style auction cards for dynamic pricing system.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+
+      <button id="auctioncard" class="project box-shadow-transition box-shadow-below box-shadow-below-hover">
+        <div class="link-arrow-container">
+          <span class="link-arrow">↗</span>
+        </div>
+        <div class="thumbnail-carousel">
+          <img class="thumbnail first" src="ombre.png" alt="">
+          <img class="thumbnail second" src="auction.png" alt="">
+          <img class="thumbnail third" src="flux.png" alt="">
+          <img class="thumbnail fourth" src="ombre.png" alt="">
+          <img class="thumbnail fifth" src="auction.png" alt="">
+        </div>
+        <span class="project-header">Japanese and Dutch-Anglo style Auction Cards</span>
+        <div class="desc">
+          Designed Japanese and Dutch-Anglo style auction cards for dynamic pricing system.
+        </div>
+        <div class="tags-container">
+          <ul>
+            <li class="tag">UX design</li>
+            <li class="tag">Case study</li>
+            <li class="tag">2022</li>
+          </ul>
+        </div>
+      </button>
+    </main>
+
+  </main>
+</body>
+
+</html>
