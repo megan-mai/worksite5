@@ -278,8 +278,6 @@ section {
   }
 
   .left-column {
-    position: absolute;
-    /* display: none; */
     width: 100%;
   }
 
@@ -288,6 +286,7 @@ section {
   }
 
   .right-column {
+    display: none;
     width: 100%;
     height: 100vh;
   }
