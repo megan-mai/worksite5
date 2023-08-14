@@ -204,15 +204,17 @@ section {
 }
 
 .tag {
-  font-size: 12px;
+  font-size: 11px;
   background-color: #F2F2F2;
   border-radius: 3px;
   color: grey;
   display: block;
   text-align: center;
   margin: 10px 8px 0px 0px;
-  padding: 4px 8px;
+  padding: 2px 8px;
 }
+
+
 
 .right-column {
   background-color: #F2F2F2;
